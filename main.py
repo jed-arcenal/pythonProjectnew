@@ -1,0 +1,5 @@
+area_code, prefix, line_num = input() .split()
+area_code, prefix, line_num = int(area_code), int(prefix), int(line_num)
+print('Country  Phone Number')
+print('-------  ------------')
+print(f"U.S.     +1 ({area_code}){prefix}-{line_num}")
